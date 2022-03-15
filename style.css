@@ -171,8 +171,8 @@ body{
 
 .downloadBtn{
 	width: 13vw;
-	background-color: #E2E8F0;
-	border: solid 0.1vw black;
+	background-color: #A9BCD0;
+	border: 0;
 	border-radius: 1vw;
 	padding: 0.75vw 1.25vw;
 	display: inline-flex;
@@ -185,8 +185,8 @@ body{
 	height: 1.25rem;
 }
 
-.downloadBtn:hover{
-	background-color: #CBD5E1;
+#downloadBtn:hover{
+	background-color: #90AECD;
 }
 
 .downloadSpan{
