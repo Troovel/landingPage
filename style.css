@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&family=Rubik:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+.gradient{
+background: rgb(169,188,208);
+background: linear-gradient(180deg, rgba(169,188,208,1) 0%, rgba(216,219,226,0.8) 100%);
+height: 15vw;
+display: flex;
+justify-content:space-between;
+}
+.member{
+display: flex;
+align-items: center;
+padding: 1vw 2vw;
+width: 15vw;
+height: 3.8vw;
+margin: 3.1vw 2vw 0 0;
+background-color: #58A4B0;
+border: 0;
+border-radius: 0.8vw;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+color: #FFFFFF;
+justify-content: center;
+align-content: center;
+font-size: 1.3vw;
+}
+
+.map{
+display: flex;
+align-items: center;
+padding: 1vw 2vw;
+width: 15vw;
+height: 3.8vw;
+margin: 3.1vw 2vw 0 0;
+background-color: transparent;
+border: 0.1vw solid #252525;
+border-radius: 0.8vw;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+color: ##505050;
+justify-content: center;
+align-content: center;
+font-size: 1.3vw;
+}
+
+.buttons{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.logo svg{
+	margin: 2.5vw 0 0 1vw;
+	width: 25vw;
+}
+
+body{
+	background-color: #D8DBE2;
+}
+
+.firstTitle{
+	display: flex;
+	justify-content: center;
+}
+.secondeTitle{
+	display: flex;
+	justify-content: center;
+	width: 32vw;
+	height: 14vw;
+	display: flex;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3vw;
+	line-height: 3.5vw;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #000000;
+}
+
+.location{
+	display:block;
+	justify-content: center;
+	width: 20%;
+	margin-left: 40vw;
+}
+.firstWave{
+	margin-top: 5vw;
+	width: 100%;
+}
+
+.secondeWave{
+	width: 100%;
+}
+
+.betweenWave{
+	background-color: #0C2D48;
+	height: 100%;
+	margin-top: -1vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.culturalArea{
+	width: 60vw;
+	height: 5vw;
+	font-family: Poppins;
+	font-style: normal;
+	font-size: 2vw;
+	color: #FFFFFF;
+	margin-bottom: 1vw;
+}
+
+.betweenWave img{
+	display:inline-block;
+}
+
+.blueRectangle{
+	width: 20.8vw;
+}
+
+.schedule{
+	color: #FFFFFF;
+	font-family: Roboto;
+	text-align: center;
+	position: absolute;
+	font-size: 1vw;
+}
+
+.schedule p:nth-child(1){
+	margin-bottom: 1vw;
+}
+
+.divCulturalArea{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imgCulturaArea{
+	width: 20.8vw;
+	height: 13.9vw;
+}
+
+.topScroll{
+  position: fixed;
+  width: 2vw;
+  height: 1vw;
+  bottom: 3vw;
+  right: 3vw;
+}
+.topScroll img{
+  width: 3vw;
+  opacity: 60%;
+}
+.topScroll img:hover{
+  opacity: 100%;
+}
+
+	
