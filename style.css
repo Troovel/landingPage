@@ -170,8 +170,7 @@ body{
 }
 
 .downloadBtn{
-	min-width: 10vw;
-	max-width: 20vw;
+	width: 13vw;
 	background-color: #E2E8F0;
 	border: solid 0.1vw black;
 	border-radius: 1vw;
