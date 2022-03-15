@@ -57,7 +57,7 @@ font-size: 1.3vw;
 }
 .logo svg{
 	margin: 2.5vw 0 0 1vw;
-	width: 25vw;
+	width: 20vw;
 }
 
 body{
@@ -164,4 +164,38 @@ body{
   opacity: 100%;
 }
 
-	
+.containerDownload{
+	display: flex;
+	width: 100%;
+}
+
+.downloadBtn{
+	min-width: 10vw;
+	max-width: 20vw;
+	background-color: #E2E8F0;
+	border: solid 0.1vw black;
+	border-radius: 1vw;
+	padding: 0.75vw 1.25vw;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}	
+
+.downloadBtn svg{
+	width: 1.25rem;
+	height: 1.25rem;
+}
+
+.downloadBtn:hover{
+	background-color: #CBD5E1;
+}
+
+.downloadSpan{
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	color: black;
+	align-items: flex-start;
+}
