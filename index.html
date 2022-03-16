@@ -84,7 +84,7 @@
 		<div class="topScroll">
    		 	<a href="#top"><img src="topScroll.png" alt="Retourner en haut"/></a>
 		</div>
-		<span class="qualitySpan">Vous pouvez également nous rejoindre sur notre application :</span>
+		<span class="joinSpan">Vous pouvez également nous rejoindre sur notre application :</span>
 		<div class="containerDownload">
 			<button class="downloadBtn">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305 305">
@@ -92,8 +92,8 @@
 	            <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
         		</svg>
         		<span class="downloadSpan">
-        			<span style="font-size: 0.8vw;">Bientôt disponible sur</span>
-        			<span style="font-weight: bold; font-size: 1.2vw">App Store</span>
+        			<span id="availableSpan">Bientôt disponible sur</span>
+        			<span id="appSpan">App Store</span>
         		</span>
         	</button>
         	<button class="downloadBtn" onclick="window.location.href = 'https://youtu.be/dQw4w9WgXcQ';">
@@ -101,8 +101,47 @@
 	            <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
 	        	</svg>
 	        	<span class="downloadSpan">
-        			<span style="font-size: 0.8vw;">Disponible sur</span>
-        			<span style="font-weight: bold; font-size: 1.2vw">Play Store</span>
+        			<span id="availableSpan">Disponible sur</span>
+        			<span id="appSpan">Play Store</span>
+					<style>
+						@media all and (min-width: 1001px){
+							.downloadSpan{
+								font-family: 'Roboto', sans-serif;
+								font-size: 100%;
+								margin-left: 1rem;
+								display: flex;
+								flex-direction: column;
+								color: black;
+								align-items: flex-start;
+							}
+							#availableSpan{
+								font-size: 0.8vw;
+							}
+							#appSpan{
+								font-size: 1.2vw;
+								font-weight: bold;
+							}
+						}
+						@media all and (max-width: 1000px) {
+							.downloadSpan{
+								font-family: 'Roboto', sans-serif;
+								font-size: 100%;
+								margin-left: 3vw;
+								display: flex;
+								flex-direction: column;
+								color: black;
+								align-items: flex-start;
+							}
+							#availableSpan{
+								font-size:2vw;
+								margin-top: 1.5vw;
+							}
+							#appSpan{
+								font-size: 2.4vw;
+								font-weight: bold;
+							}
+						}
+					</style>
         		</span>
         	</button>
 		</div>
