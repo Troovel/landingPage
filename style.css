@@ -272,7 +272,7 @@
 		visibility: visible;
 		width: 7.5%;
 		height: 45%;
-		margin: ;
+		margin: 2vw;
 		background-color: transparent;
 		border: 0;
 	}
@@ -285,7 +285,8 @@
 	}
 	.logo svg{
 		visibility: visible;
-		width: 10vw;
+		width: 18vw;
+		margin: 2vw;
 	}
 
 	body{
