@@ -272,8 +272,8 @@
 		position: absolute;
 		visibility: visible;
 		width: 18%;
-		height: 20%;
-		margin: 2vw;
+		height: 14%;
+		margin-top: 0vw;
 		background-color: transparent;
 		border: 0;
 	}
@@ -286,7 +286,7 @@
 	}
 	.logo svg{
 		visibility: visible;
-		width: 18vw;
+		width: 70%;
 		margin: 2vw;
 	}
 
@@ -297,6 +297,7 @@
 	.firstTitle{
 		display: flex;
 		justify-content: center;
+		margin-top: 15vw;;
 	}
 	.secondeTitle{
 		width: 32vw;
