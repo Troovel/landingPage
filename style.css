@@ -269,8 +269,7 @@
 	visibility: hidden;
 	}
 	.logo svg{
-		margin: 2.5vw 0 0 1vw;
-		width: 20vw;
+		visibility: hidden;
 	}
 
 	body{
