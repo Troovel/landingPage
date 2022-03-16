@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
 
 
 * {
@@ -301,19 +301,14 @@
 	visibility: collapse;
 	}
 	.logo svg{
-		visibility: collapse;
+		visibility: visible;
 		width: 70%;
-		margin: 2vw;
+		margin: 7vw 0 0 2vw;
+
 	}
 
 	.titleSpan{
-		font-family: Josefin Sans;
-		font-size: 15vw;
-		display: flex;
-		justify-content: left;
-		margin-top: -10vw;
-		margin-left: 2vw;
-		text-decoration: underline 0.3vw;
+		visibility: collapse;
 	}
 
 	#menu-burger {position:absolute; top:2.5em; right:3.5vw; display:inline-block; cursor:pointer;}
@@ -388,14 +383,14 @@
 		margin-top: 15vw;;
 	}
 	.secondeTitle{
-		width: 32vw;
-		height: 14vw;
+		width: 80vw;
+		height: 20vw;
 		display: flex;
 		font-family: Rubik;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 3vw;
-		line-height: 3.5vw;
+		font-size: 7vw;
+		line-height: 7.5vw;
 		text-align: center;
 		letter-spacing: -0.02em;
 		color: #000000;
@@ -408,12 +403,11 @@
 		margin-left: 40vw;
 	}
 	.firstWave{
-		margin-top: 5vw;
-		width: 100%;
+		background-color: #0C2D48;
 	}
 
 	.secondeWave{
-		width: 100%;
+		background-color: #0C2D48;
 	}
 
 	.betweenWave{
