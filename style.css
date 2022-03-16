@@ -271,10 +271,16 @@
 	.phoneBtn{
 		position: absolute;
 		visibility: visible;
-		width: 18%;
-		height: 14%;
+		width: 15vw;
+		height: %;
 		background-color: transparent;
 		border: 0;
+		padding: 1vw;
+		margin: 1vw 1vw 0 0;
+	}
+	.menuImg{
+		width: 100%;
+
 	}
 	.phoneBtn:hover{
 		opacity: 50%;
