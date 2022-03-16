@@ -269,6 +269,7 @@
 	}
 
 	.phoneBtn{
+		position: absolute;
 		visibility: visible;
 		width: 18%;
 		height: 20%;
