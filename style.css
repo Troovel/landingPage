@@ -247,7 +247,7 @@ body{
 .discoverBtn:hover{
 	background-color: #1FB9D1;
 }
-@media only screen and (max-width: 45em) {
+@media only screen and (max-width: 55em) {
 	.map{
 		visibility: hidden;
 	}
