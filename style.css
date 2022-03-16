@@ -377,24 +377,13 @@
 	}
 
 	.topScroll{
-	position: fixed;
-	width: 2vw;
-	height: 1vw;
-	bottom: 3vw;
-	right: 3vw;
-	}
-	.topScroll img{
-	width: 3vw;
-	opacity: 60%;
-	}
-	.topScroll img:hover{
-	opacity: 100%;
+	visibility: hidden;
 	}
 
 	.containerDownload{
 		display: flex;
 		width: 100%;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 2.5vw;
@@ -418,34 +407,26 @@
 		border-radius: 1vw;
 		padding: 0.75vw 1.25vw;
 		display: inline-flex;
-		justify-content: center;
-		align-items: center;
 		margin-top: 1vw;
 	}	
-
-	.downloadBtn:last-child{
-		margin-left: 3vw;
-	}	
-
 
 	.downloadBtn svg{
 		width: 1.9vw;
 		height: 1.9vw;
-		margin-right: 1.3vw;
 	}
 
-	#downloadBtn:hover{
+	.downloadBtn:hover{
 		background-color: #90AECD;
 	}
 
 	.downloadSpan{
 		font-family: 'Roboto', sans-serif;
 		font-size: 100%;
-		margin-left: 1rem;
 		display: flex;
 		flex-direction: column;
 		color: black;
 		align-items: flex-start;
+		margin-left: 2vw;
 	}
 
 	.discoverBtn{
