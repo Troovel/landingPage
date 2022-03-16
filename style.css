@@ -270,6 +270,7 @@
 	}
 	.logo svg{
 		visibility: visible;
+		width: 10vw;
 	}
 
 	body{
