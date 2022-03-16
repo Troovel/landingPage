@@ -6,7 +6,7 @@
 	scroll-behavior: smooth;
 }
 
-@media all and (min-width: 901px){
+@media all and (min-width: 1001px){
 
 	.gradient{
 	background: rgb(169,188,208);
@@ -251,7 +251,7 @@
 	}
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
 	.map{
 		visibility: hidden;
 	}
