@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
 
 * {
 	margin: 0;
@@ -68,6 +69,10 @@
 	.logo svg{
 		margin: 2.5vw 0 0 1vw;
 		width: 20vw;
+	}
+
+	.titleSpan{
+		visibility: collapse;
 	}
 
 	#menu-burger{
@@ -301,7 +306,16 @@
 		margin: 2vw;
 	}
 
-	#menu-burger {position:absolute; top:2.5em; right:3.5em; display:inline-block; cursor:pointer;}
+	.titleSpan{
+		font-family: Josefin Sans;
+		font-size: 15vw;
+		display: flex;
+		justify-content: left;
+		margin-top: -14vw;
+		text-decoration: underline 0.3vw;
+	}
+
+	#menu-burger {position:absolute; top:2.5em; right:3.5vw; display:inline-block; cursor:pointer;}
 	#menu-burger .bar1,
 	#menu-burger .bar2,
 	#menu-burger .bar3 {width:32px; height:5px; background-color:#F1F1F1; margin:6px 0; transition:0.4s;}
@@ -310,7 +324,7 @@
 	#menu-burger.clicked .bar2 {opacity: 0;}
 	#menu-burger.clicked .bar3 {-webkit-transform:rotate(45deg) translate(-8px, -8px); transform:rotate(45deg) translate(-8px, -8px);}
 
-	#menu {position:fixed; z-index:9998; left:-25%; top:auto; backdrop-filter: blur(3vw); padding:4em 2em; width:25%; min-height:100%;}
+	#menu {position:fixed; z-index:9998; left:-25%; top:auto; background-color:#A9BCD0; opacity: 80%; padding:4em 2em; width:25%; min-height:100%;}
 	#menu ul li {list-style:none;}
 	#menu ul li a {display:block; color:#fff; text-decoration:none; font-weight:700; background:#58A4B0; transition:background .5s; padding:1em; text-align:center; margin-bottom:.5em; border-radius: 2vw;}
 	#menu ul li a:hover {background:#1FB9D1; transition:background .5s;}
