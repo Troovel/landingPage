@@ -371,7 +371,7 @@
 		from {left:0%;}
 		to {left:-100%;}
 	}
-	
+
 	body{
 		background-color: #D8DBE2;
 	}
@@ -404,11 +404,12 @@
 	}
 	.firstWave{
 		visibility: visible;
-		margin-top: 2vw;
+		margin-top: 10vw;
 	}
 
 	.secondeWave{
-		visibility: collapse;
+		visibility: visible;
+		margin-top: -2vw;
 	}
 
 	.betweenWave{
@@ -456,7 +457,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 8vw;
+		margin-top: 15vw;
 	}
 
 	.imgCulturaArea{
@@ -520,9 +521,10 @@
 	.discoverBtn{
 		display: flex;
 		align-items: center;
-		width: 13vw;
-		height: 3.8vw;
-		margin-top: 2vw;
+		width: 45vw;
+		height: 10vw;
+		margin-top: 10vw;
+		margin-bottom: 10vw;
 		background-color: #58A4B0;
 		border: 0;
 		border-radius: 0.4vw;
@@ -531,7 +533,7 @@
 		color: #FFFFFF;
 		justify-content: center;
 		align-content: center;
-		font-size: 0.9vw;
+		font-size: 3.5vw;
 	}
 
 	.discoverBtn:hover{
