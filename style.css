@@ -269,7 +269,7 @@
 	visibility: hidden;
 	}
 	.logo svg{
-		visibility: hidden;
+		visibility: visible;
 	}
 
 	body{
