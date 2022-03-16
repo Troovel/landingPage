@@ -264,6 +264,7 @@
 	}
 	.phoneBtn{
 		visibility: visible;
+		width: 50%;
 	}
 	.map{
 	visibility: hidden;
