@@ -259,15 +259,29 @@
 	display: flex;
 	justify-content:space-between;
 	}
-	.member{
-	visibility: hidden;
+	.buttons{
+		display: flex;
+		justify-content: right;
 	}
+
+	.member{
+	visibility: collapse;
+	}
+
 	.phoneBtn{
 		visibility: visible;
-		width: 50%;
+		width: 7.5%;
+		height: 45%;
+		margin: ;
+		background-color: transparent;
+		border: 0;
 	}
+
+	.phoneBtn svg{
+	}
+
 	.map{
-	visibility: hidden;
+	visibility: collapse;
 	}
 	.logo svg{
 		visibility: visible;
