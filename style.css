@@ -334,7 +334,7 @@
 	#menu.invisible {animation:1s slideLeft ease-out forwards; transition-delay:0;}
 
 	#menu-burger:nth-child(1){
-		margin-top: 4.5vw;
+		margin-top: 3.5vw;
 		margin-right: 2vw;
 	}
 
