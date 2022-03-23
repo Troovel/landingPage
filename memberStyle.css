@@ -5,145 +5,290 @@
     box-sizing: inherit;
 }
 
-body{
-    display: block;
-    font-weight: 400;
-    font-size: 0.9vw;
-}
+@media all and (min-width: 1001px){
+    body{
+        display: block;
+        font-weight: 400;
+        font-size: 0.9vw;
+    }
 
-.backgroundContainer{
-    background-image: url(gradient.svg);
-    background-size: cover;
-    display: block;
-    height: 100vh;
-}
+    .backgroundContainer{
+        background-image: url(gradient.svg);
+        background-size: cover;
+        display: block;
+        height: 100vh;
+    }
 
-.ndbackgroundContainer{
-    background-color: transparent;
-    display: grid;
-    margin: 0 20vw 0 20vw;
-}
+    .ndbackgroundContainer{
+        background-color: transparent;
+        display: grid;
+        margin: 0 20vw 0 20vw;
+    }
 
-.title{
-    font-size: 20px;
-    color: #000;
-    font-weight: 400;
-    margin-bottom: 1.8vw;
-    font-family: Poppins;
-    text-decoration: bold;
-}
+    .title{
+        font-size: 1.2vw;
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 1.8vw;
+        font-family: Poppins;
+        text-decoration: bold;
+    }
 
-.formContainer{
-    background: #FFF;
-    border-radius: 2vw;
-    width: 100%;
-    display: table;
-    margin-top: 2%;
-}
+    .formContainer{
+        background: #FFF;
+        border-radius: 2vw;
+        width: 100%;
+        display: table;
+        margin-top: 2%;
+    }
 
-input::placeholder{
-    color: black;
-    opacity: 1;
-}
+    input::placeholder{
+        color: black;
+        opacity: 1;
+    }
 
-.imgContainer{
-    background: url(vitre.png) top left/cover no-repeat;
-    display: table-cell;
-    width: 50%;
-    border-radius: 2vw 0 0 2vw;
-}
+    .imgContainer{
+        background: url(vitre.png) top left/cover no-repeat;
+        display: table-cell;
+        width: 50%;
+        border-radius: 2vw 0 0 2vw;
+    }
 
-.inputContainer{
-    padding: 4vw 4vw;
-    padding-bottom: 4vw;
-    display: table-cell;
-}
+    .inputContainer{
+        padding: 4vw 4vw;
+        padding-bottom: 4vw;
+        display: table-cell;
+    }
 
-.inputDiv{
-    position: relative;
-    margin-bottom: 1.6vw;
-    border-bottom: 0.1vw solid black;
-    color: black;
-}
+    .inputDiv{
+        position: relative;
+        margin-bottom: 1.6vw;
+        border-bottom: 0.1vw solid black;
+        color: black;
+    }
 
-.inputSelector{
-    position: relative;
-    margin-bottom: 1.5vw;
-    border-bottom: 0.1vw solid black;
-    display: flex;
-    flex-direction: column;
-}
+    .inputSelector{
+        position: relative;
+        margin-bottom: 1.5vw;
+        border-bottom: 0.1vw solid black;
+        display: flex;
+        flex-direction: column;
+    }
 
-.nameInput{
-    padding: 0.3vw 0;
-    font-size: 1vw;
-    font-family: Poppins;
-    color: #000;
-    background: 0 0;
-    width: 100%;
-    box-shadow: none;
-    outline: none;
-    border: none;
-    margin: 0;
-    cursor: text;
-}
+    .nameInput{
+        padding: 0.3vw 0;
+        font-size: 1vw;
+        font-family: Poppins;
+        color: #000;
+        background: 0 0;
+        width: 100%;
+        box-shadow: none;
+        outline: none;
+        border: none;
+        margin: 0;
+        cursor: text;
+    }
 
-.selectContainer{
-    display: flex;
-}
+    .selectContainer{
+        display: flex;
+    }
 
-.genreInput{
-    padding: 0.3vw 0;
-    font-family: Poppins;
-    width: 100%;
-    color: #000;
-    border: none;
-    outline: none;
-    font-size: 0.8vw;
-    display: flex;
-    flex-direction: column;
-}
+    .genreInput{
+        padding: 0.3vw 0;
+        font-family: Poppins;
+        width: 100%;
+        color: #000;
+        border: none;
+        outline: none;
+        font-size: 0.8vw;
+        display: flex;
+        flex-direction: column;
+    }
 
-.genreSelect{
-    width: 6vw;
-    height: 2vw;
-    font-size: 0.8vw;
-    padding: 0.1vw;
-}
+    .genreSelect{
+        width: 6vw;
+        height: 2vw;
+        font-size: 0.8vw;
+        padding: 0.1vw;
+    }
 
-.checkboxContainer2{
-    margin-top: 1vw;
-}
+    .checkboxContainer2{
+        margin-top: 1vw;
+    }
 
-.statutP{
-    width: 10vw;
-    height: 2vw;
-    font-size: 1.1vw;
-    font-family: Poppins;
-    color: #000;
-    margin-top: 1vw;
-    text-decoration: bold;
-}
+    .statutP{
+        width: 10vw;
+        height: 2vw;
+        font-size: 1.1vw;
+        font-family: Poppins;
+        color: #000;
+        margin-top: 1vw;
+        text-decoration: bold;
+    }
 
-.checkboxInput{
-    font-family: Poppins;
-    margin-left: 0.5vw;
-}
+    .checkboxInput{
+        font-family: Poppins;
+        margin-left: 0.5vw;
+    }
 
-.btnContainer{
-    padding-top: 0.8vw;
-}
+    .btnContainer{
+        padding-top: 0.8vw;
+    }
 
-.submit{
-    background: #57B846;
-    border-radius: 1vw;
-    display: inline-block;
-    line-height: 2.5vw;
-    padding: 0 2vw;
-    font-family: Poppins;
-    cursor: pointer;
-    color: #000;
-    font-size: 1.1vw;
-    outline: none;
-    border: none;
+    .submit{
+        background: #57B846;
+        border-radius: 1vw;
+        display: inline-block;
+        line-height: 2.5vw;
+        padding: 0 2vw;
+        font-family: Poppins;
+        cursor: pointer;
+        color: #000;
+        font-size: 1.1vw;
+        outline: none;
+        border: none;
+    }
+}
+@media all and (max-width: 1000px) {
+    body{
+        display: block;
+        font-weight: 400;
+        font-size: 0.9vw;
+    }
+
+    .backgroundContainer{
+        background-image: url(gradient.svg);
+        background-size: cover;
+        display: block;
+        height: 100vh;
+    }
+
+    .ndbackgroundContainer{
+        background-color: transparent;
+        display: grid;
+        margin: 0 20vw 0 20vw;
+    }
+
+    .title{
+        font-size: 1.2vw;
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 1.8vw;
+        font-family: Poppins;
+        text-decoration: bold;
+    }
+
+    .formContainer{
+        background: #FFF;
+        border-radius: 2vw;
+        width: 100%;
+        display: table;
+        margin-top: 2%;
+    }
+
+    input::placeholder{
+        color: black;
+        opacity: 1;
+    }
+
+    .imgContainer{
+        background: url(vitre.png) top left/cover no-repeat;
+        display: table-cell;
+        width: 50%;
+        border-radius: 2vw 0 0 2vw;
+    }
+
+    .inputContainer{
+        padding: 4vw 4vw;
+        padding-bottom: 4vw;
+        display: table-cell;
+    }
+
+    .inputDiv{
+        position: relative;
+        margin-bottom: 1.6vw;
+        border-bottom: 0.1vw solid black;
+        color: black;
+    }
+
+    .inputSelector{
+        position: relative;
+        margin-bottom: 1.5vw;
+        border-bottom: 0.1vw solid black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nameInput{
+        padding: 0.3vw 0;
+        font-size: 1vw;
+        font-family: Poppins;
+        color: #000;
+        background: 0 0;
+        width: 100%;
+        box-shadow: none;
+        outline: none;
+        border: none;
+        margin: 0;
+        cursor: text;
+    }
+
+    .selectContainer{
+        display: flex;
+    }
+
+    .genreInput{
+        padding: 0.3vw 0;
+        font-family: Poppins;
+        width: 100%;
+        color: #000;
+        border: none;
+        outline: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .genreSelect{
+        width: 6vw;
+        height: 2vw;
+        font-size: 0.8vw;
+        padding: 0.1vw;
+    }
+
+    .checkboxContainer2{
+        margin-top: 1vw;
+    }
+
+    .statutP{
+        width: 10vw;
+        height: 2vw;
+        font-size: 1.1vw;
+        font-family: Poppins;
+        color: #000;
+        margin-top: 1vw;
+        text-decoration: bold;
+    }
+
+    .checkboxInput{
+        font-family: Poppins;
+        margin-left: 0.5vw;
+    }
+
+    .btnContainer{
+        padding-top: 0.8vw;
+    }
+
+    .submit{
+        background: #57B846;
+        border-radius: 1vw;
+        display: inline-block;
+        line-height: 2.5vw;
+        padding: 0 2vw;
+        font-family: Poppins;
+        cursor: pointer;
+        color: #000;
+        font-size: 1.1vw;
+        outline: none;
+        border: none;
+    }
 }
