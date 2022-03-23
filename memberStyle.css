@@ -28,7 +28,7 @@ body{
     font-size: 20px;
     color: #000;
     font-weight: 400;
-    margin-bottom: 36px;
+    margin-bottom: 1.8vw;
     font-family: Poppins;
     text-decoration: bold;
 }
@@ -54,29 +54,29 @@ input::placeholder{
 }
 
 .inputContainer{
-    padding: 57px 65px;
-    padding-bottom: 65px;
+    padding: 4vw 4vw;
+    padding-bottom: 4vw;
     display: table-cell;
 }
 
 .inputDiv{
     position: relative;
-    margin-bottom: 25px;
-    border-bottom: 1px solid black;
+    margin-bottom: 1.6vw;
+    border-bottom: 0.1vw solid black;
     color: black;
 }
 
 .inputSelector{
     position: relative;
-    margin-bottom: 33px;
-    border-bottom: 1px solid black;
+    margin-bottom: 1.5vw;
+    border-bottom: 0.1vw solid black;
     display: flex;
     flex-direction: column;
 }
 
 .nameInput{
-    padding: 5px 0;
-    font-size: 18px;
+    padding: 0.3vw 0;
+    font-size: 1vw;
     font-family: Poppins;
     color: #000;
     background: 0 0;
@@ -93,13 +93,13 @@ input::placeholder{
 }
 
 .genreInput{
-    padding: 5px 0;
+    padding: 0.3vw 0;
     font-family: Poppins;
     width: 100%;
     color: #000;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 0.8vw;
     display: flex;
     flex-direction: column;
 }
@@ -118,7 +118,7 @@ input::placeholder{
 .statutP{
     width: 10vw;
     height: 2vw;
-    font-size: 18px;
+    font-size: 1.1vw;
     font-family: Poppins;
     color: #000;
     margin-top: 1vw;
@@ -131,19 +131,19 @@ input::placeholder{
 }
 
 .btnContainer{
-    padding-top: 10px;
+    padding-top: 0.8vw;
 }
 
 .submit{
     background: #57B846;
-    border-radius: 20px;
+    border-radius: 1vw;
     display: inline-block;
-    line-height: 40px;
-    padding: 0 33px;
+    line-height: 2.5vw;
+    padding: 0 2vw;
     font-family: Poppins;
     cursor: pointer;
     color: #000;
-    font-size: 18px;
+    font-size: 1.1vw;
     outline: none;
     border: none;
 }
