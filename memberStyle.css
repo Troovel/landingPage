@@ -12,23 +12,20 @@ body{
 }
 
 .backgroundContainer{
-    background: -webkit-gradient(linear,left bottom,left top,from(#0C2D48),to(#58A4B0));
-    background: -webkit-linear-gradient(bottom,#0C2D48 0%,#58A4B0 100%);
-    padding-top: 12.25vw;
-    padding-bottom: 12.25vw;
+    background-image: url(gradient.svg);
+    background-size: cover;
     display: block;
+    height: 100vh;
 }
 
 .ndbackgroundContainer{
     background-color: transparent;
-    display: block;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
     margin: 0 20vw 0 20vw;
 }
 
 .title{
-    font-size: 24px;
+    font-size: 20px;
     color: #000;
     font-weight: 400;
     margin-bottom: 36px;
@@ -38,15 +35,22 @@ body{
 
 .formContainer{
     background: #FFF;
-    border-radius: 1vw;
+    border-radius: 2vw;
     width: 100%;
     display: table;
+    margin-top: 2%;
+}
+
+input::placeholder{
+    color: black;
+    opacity: 1;
 }
 
 .imgContainer{
-    background: url(landscape.jpg) top left/cover no-repeat;
+    background: url(vitre.png) top left/cover no-repeat;
     display: table-cell;
     width: 50%;
+    border-radius: 2vw 0 0 2vw;
 }
 
 .inputContainer{
@@ -57,8 +61,17 @@ body{
 
 .inputDiv{
     position: relative;
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.inputSelector{
+    position: relative;
     margin-bottom: 33px;
     border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
 .nameInput{
@@ -67,7 +80,6 @@ body{
     font-family: Poppins;
     color: #000;
     background: 0 0;
-    font-family: Poppins;
     width: 100%;
     box-shadow: none;
     outline: none;
@@ -78,15 +90,18 @@ body{
 
 .selectContainer{
     display: flex;
-    flex-di
 }
 
 .genreInput{
     padding: 5px 0;
+    font-family: Poppins;
     width: 100%;
+    color: #000;
     border: none;
     outline: none;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
 
 .genreSelect{
@@ -96,12 +111,23 @@ body{
     padding: 0.1vw;
 }
 
-.handicapSelect{
-    width: 8vw;
+.checkboxContainer2{
+    margin-top: 1vw;
+}
+
+.statutP{
+    width: 10vw;
     height: 2vw;
-    font-size: 0.8vw;
-    padding: 0.1vw;
-    margin-left: 3vw;
+    font-size: 18px;
+    font-family: Poppins;
+    color: #000;
+    margin-top: 1vw;
+    text-decoration: bold;
+}
+
+.checkboxInput{
+    font-family: Poppins;
+    margin-left: 0.5vw;
 }
 
 .btnContainer{

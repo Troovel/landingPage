@@ -15,36 +15,57 @@
                     <h2 class="title">Inscrivez-vous et rejoignez nous !</h2>
                     <form method="POST">
                         <div class="inputDiv">
-                            <input class="nameInput" type="text" placeholder="Identifiant" name="name" minlength="2" maxlength="15">
+                            <input class="nameInput" type="text" placeholder="Identifiant" name="name" minlength="2" maxlength="15" required>
                         </div>
                         <div class="inputDiv">
-                            <input class="nameInput" type="date" placeholder="Date de naissance" name="birthday">
+                            <input class="nameInput" type="date" placeholder="Date de naissance" name="birthday" required>
                         </div>
-                        <div class="inputDiv" style="border: 0;">
-                            <input class="genreInput" placeholder="Informations" maxlength="0">
+                        <div class="inputSelector" style="border: 0;">
+                            <div>
+                                <input class="genreInput" placeholder="Votre genre" maxlength="0" disabled>
                                 <div class="selectContainer">
-                                <select name="Genre" class="genreSelect">
-                                    <option value="Homme">Homme</option>
-                                    <option value="Femme">Femme</option>
-                                    <option value="Non-binaire">Non-binaire</option>
-                                </select>
-                                <select name="Handicap" class="handicapSelect">
-                                    <option value="Homme">Handicap moteur</option>
-                                    <option value="Femme">Handicap visuel</option>
-                                    <option value="Non-binaire">Handicap auditif</option>
-                                    <option value="Non-binaire">Handicap mental</option>
-                                    <option value="Non-binaire">Accompagnant</option>
-                                </select>
+                                    <select name="Genre" class="genreSelect" required>
+                                        <option value="Homme">Homme</option>
+                                        <option value="Femme">Femme</option>
+                                        <option value="Non-binaire">Non-binaire</option>
+                                        <option value="Non-binaire">Autres...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="checkboxContainer">
+                                <p class="statutP">Votre statut :</p>
+                                <div class="checkboxContainer2">
+                                    <div>
+                                        <input type="checkbox" name="moteur">
+                                        <label class="checkboxInput" for="scales">Déficient moteur</label>
+                                    </div>                                    
+                                    <div>
+                                        <input type="checkbox" name="mental">
+                                        <label class="checkboxInput" for="horns">Déficient mental</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="visuel">
+                                        <label class="checkboxInput" for="horns">Déficient visuel</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="auditif">
+                                        <label class="checkboxInput" for="horns">Déficient auditif</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="accompagnement">
+                                        <label class="checkboxInput" for="horns">Accompagnement</label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="inputDiv">
-                            <input class="nameInput" type="email" placeholder="Email" name="name">
+                            <input class="nameInput" type="email" placeholder="Email" name="name" required>
                         </div>
                         <div class="inputDiv">
-                            <input class="nameInput" type="tel" placeholder="Numéro de tél." name="name">
+                            <input class="nameInput" type="tel" placeholder="Numéro de tél." name="name" required>
                         </div>
                         <div class="btnContainer">
-                            <button class="submit" type="submit">Submit</button>
+                            <button class="submit" type="submit">Inscription</button>
                         </div>
                     </form>
                 </div>
