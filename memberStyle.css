@@ -258,7 +258,7 @@
     .checkboxContainer2{
         font-size: 3vw;
         color: gray;
-        margin-top: 1vw;
+        margin-top: 4vw;
     }
 
     .statutP{
@@ -274,6 +274,7 @@
     .checkboxInput{
         font-family: Poppins;
         margin-left: 2vw;
+        margin-top: -1vw;
     }
 
     .btnContainer{
