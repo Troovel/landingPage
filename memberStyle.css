@@ -161,7 +161,7 @@
         background-image: url(gradient.svg);
         background-size: cover;
         display: block;
-        height: 100vh;
+        height: 100%;
     }
 
     .ndbackgroundContainer{
