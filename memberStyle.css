@@ -94,13 +94,14 @@
     }
 
     .genreInput{
-        padding: 0.3vw 0;
+        padding: 0.5vw 0;
         font-family: Poppins;
         width: 100%;
         color: #000;
         border: none;
         outline: none;
-        font-size: 0.8vw;
+        background-color: transparent;
+        font-size: 1.1vw;
         display: flex;
         flex-direction: column;
     }
