@@ -582,7 +582,6 @@
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		margin-top: 2vw;
 	}
 
 	.informationContainer ul li:nth-child(1){
@@ -612,14 +611,16 @@
 	.ndapplicationContainer{
 		display: flex;
 		flex-direction: column-reverse;
+		align-items: center;
 		width: 100%;
 		background-color: transparent;
+		margin-top: 5vw;
 	}
 	.sliderContainer {
 		width: 45%;
 		height: 800px;
 		overflow: hidden;
-		margin-top: 6vw;
+		margin-top: 10vw;
 	}
 	.slidesContainer {
 		width: calc(180px * 5);
