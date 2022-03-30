@@ -155,25 +155,10 @@
 		height: 13.9vw;
 	}
 
-	.topScroll{
-	position: fixed;
-	width: 2vw;
-	height: 1vw;
-	bottom: 3vw;
-	right: 3vw;
-	}
-	.topScroll img{
-	width: 3vw;
-	opacity: 60%;
-	}
-	.topScroll img:hover{
-	opacity: 100%;
-	}
-
 	.containerDownload{
 		display: flex;
 		width: 100%;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 2.5vw;
@@ -212,7 +197,7 @@
 	}
 
 	.downloadBtn{
-		width: 16vw;
+		width: 15vw;
 		background-color: #A9BCD0;
 		border: 0;
 		border-radius: 1vw;
@@ -222,11 +207,6 @@
 		align-items: center;
 		margin-top: 1vw;
 	}	
-
-	.downloadBtn:last-child{
-		margin-left: 3vw;
-	}	
-
 
 	.downloadBtn svg{
 		width: 1.9vw;
@@ -244,7 +224,7 @@
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		margin-top: 5vw;
+		margin-top: 2vw;
 	}
 
 	.informationContainer ul li:nth-child(1){
@@ -266,6 +246,64 @@
 		border: none;
 		outline: none;
 		background-color: white;
+	}
+	.applicationContainer{
+		display: flex;
+		justify-content: center;
+	}
+	.ndapplicationContainer{
+		display: flex;
+		flex-direction: row;
+		background-color: white;
+		width: 760px;
+	}
+	.sliderContainer {
+		width: 360px;
+		height: 800px;
+		overflow: hidden;
+	}
+	.slidesContainer {
+		width: calc(360px * 5);
+		animation: glisse 15s infinite;
+	}
+	.slideContainer {
+		float: left;
+	}
+
+	@keyframes glisse {
+		0% {
+			transform: translateX(0);
+		}
+		5% {
+			transform: translateX(0);
+		}
+		20% {
+			transform: translateX(-360px);
+		}
+		25% {
+			transform: translateX(-360px);
+		}
+		40% {
+			transform: translateX(-720px);
+		}
+		45% {
+			transform: translateX(-720px);
+		}
+		60% {
+			transform: translateX(-1080px);
+		}
+		65% {
+			transform: translateX(-1080px);
+		}
+		80% {
+			transform: translateX(-1440px);
+		}
+		85% {
+			transform: translateX(-1440px);
+		}
+		100% {
+			transform: translateX(0);
+		}
 	}
 }
 
