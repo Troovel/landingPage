@@ -159,7 +159,7 @@
 		display: flex;
 		width: 100%;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: end;
 		align-items: center;
 		margin-top: 2.5vw;
 	}
@@ -194,19 +194,23 @@
 		display: flex;
 		justify-content: center;
 		margin-top: 2vw;
+		text-align: center;
 	}
 
 	.downloadBtn{
-		width: 15vw;
+		width: 10vw;
 		background-color: #A9BCD0;
 		border: 0;
 		border-radius: 1vw;
-		padding: 0.75vw 1.25vw;
+		padding: 0.5vw 1vw;
 		display: inline-flex;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: center;
-		margin-top: 1vw;
+		margin-top: 0.5vw;
 	}	
+	.downloadBtn:last-child{
+		margin-bottom: 3vw;
+	}
 
 	.downloadBtn svg{
 		width: 1.9vw;
@@ -256,9 +260,10 @@
 		flex-direction: row;
 		background-color: white;
 		width: 760px;
+		box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 	}
 	.sliderContainer {
-		width: 360px;
+		width: 90%;
 		height: 800px;
 		overflow: hidden;
 	}
