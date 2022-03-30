@@ -578,7 +578,6 @@
 	.downloadBtn:hover{
 		background-color: #90AECD;
 	}
-
 	.informationContainer{
 		background-color: #0C2D48;
 		display: flex;
@@ -589,9 +588,9 @@
 
 	.informationContainer ul li:nth-child(1){
 		list-style-type: none;
-		margin-top: 3vw;
+		margin-top: 10vw;
 	}
-	ul a{
+	ul li a{
 		color: gainsboro;
 		text-decoration: none;
 		font-family: Poppins;
@@ -603,12 +602,9 @@
 		font-family: Poppins;
 	}
 	ul a:visited{
-		color:white;
+		color:gainsboro;
 		text-decoration: none;
 		font-family: Poppins;
-		border: none;
-		outline: none;
-		background-color: white;
 	}
 	.applicationContainer{
 		display: flex;
