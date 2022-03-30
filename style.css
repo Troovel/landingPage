@@ -617,21 +617,21 @@
 		margin-top: 5vw;
 	}
 	.sliderContainer {
-		width: 45%;
+		width: 62%;
 		height: 800px;
 		overflow: hidden;
 		margin-top: 10vw;
 	}
 	.slidesContainer {
-		width: calc(180px * 5);
+		width: calc(270px * 5);
 		animation: glisse 15s infinite;
 	}
 	.slideContainer {
 		float: left;
 	}
 	.slideContainer img{
-		width: 180px;
-		height: 400px;
+		width: 270px;
+		height: 600px;
 	}
 
 	@keyframes glisse {
@@ -642,28 +642,28 @@
 			transform: translateX(0);
 		}
 		20% {
-			transform: translateX(-180px);
+			transform: translateX(-270px);
 		}
 		25% {
-			transform: translateX(-180px);
+			transform: translateX(-270px);
 		}
 		40% {
-			transform: translateX(-360px);
+			transform: translateX(-540px);
 		}
 		45% {
-			transform: translateX(-360px);
+			transform: translateX(-540px);
 		}
 		60% {
-			transform: translateX(-540px);
+			transform: translateX(-810px);
 		}
 		65% {
-			transform: translateX(-540px);
+			transform: translateX(-810px);
 		}
 		80% {
-			transform: translateX(-720px);
+			transform: translateX(-1080px);
 		}
 		85% {
-			transform: translateX(-720px);
+			transform: translateX(-1080px);
 		}
 		100% {
 			transform: translateX(0);
