@@ -547,7 +547,7 @@
 		font-family: Rubik;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 4vw;
+		font-size: 5vw;
 		display: flex;
 		text-align: center;
 		letter-spacing: -0.02em;
@@ -555,21 +555,24 @@
 	}
 
 	.downloadBtn{
-		width: 40vw;
-		height: 10vw;
+		width: 48vw;
+		height: 12vw;
 		background-color: #A9BCD0;
 		border: 0;
 		border-radius: 1vw;
 		padding: 0.75vw 1.25vw;
 		display: inline-flex;
 		margin-top: 4vw;
+	}
+	.downloadBtn:first-child{
+		margin-top: 5vw;
 	}	
 
 	.downloadBtn svg{
-		width: 6vw;
+		width: 9vw;
 		height: 6vw;
 		margin-left: 2vw;
-		margin-top: 1vw;
+		margin-top: 1vw;	
 	}
 
 	.downloadBtn:hover{
