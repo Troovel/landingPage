@@ -300,7 +300,7 @@
     .connectContainer{
         display: flex;
         flex-direction: row;
-        margin-top: 3vw;
+        margin-top: 8vw;
     }
     .textSpan{
         font-family: Poppins;
