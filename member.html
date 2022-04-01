@@ -13,16 +13,16 @@
                 <div class="imgContainer"></div>
                 <div class="inputContainer">
                     <h2 class="title">Inscrivez-vous et rejoignez nous !</h2>
-                    <form method="POST">
+                    <form method="post" action="result.php">
                         <div class="inputDiv">
-                            <input class="nameInput" type="text" placeholder="Identifiant" name="name" minlength="2" maxlength="15" required>
+                            <input name="Identifiant" class="nameInput" type="text" placeholder="Identifiant" minlength="2" maxlength="15" required>
                         </div>
                         <div class="inputDiv">
-                            <input class="nameInput" type="date" placeholder="Date de naissance" name="birthday" required>
+                            <input name="birthday" class="nameInput" type="date" placeholder="Date de naissance" required>
                         </div>
                         <div class="inputSelector" style="border: 0;">
                             <div>
-                                <input class="genreInput" placeholder="Votre genre :" maxlength="0" disabled>
+                                <input  name="Genre" class="genreInput" placeholder="Votre genre :" maxlength="0" disabled>
                                 <div class="selectContainer">
                                     <select name="Genre" class="genreSelect" required>
                                         <option value="Homme">Homme</option>
@@ -52,20 +52,28 @@
                                         <label class="checkboxInput" for="horns">Déficient auditif</label>
                                     </div>
                                     <div>
-                                        <input type="checkbox" name="accompagnement">
-                                        <label class="checkboxInput" for="horns">Accompagnement</label>
+                                        <input type="checkbox" name="accompagnant">
+                                        <label class="checkboxInput" for="horns">Accompagnant</label>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="inputDiv">
-                            <input class="nameInput" type="email" placeholder="Email" name="name" required>
+                            <input name="Courriel" class="nameInput" type="email" placeholder="Courriel" required>
                         </div>
                         <div class="inputDiv">
-                            <input class="nameInput" type="tel" placeholder="Numéro de tél." name="name" required>
+                            <input name="mdp" class="nameInput" type="password" placeholder="Mot de passe" required>
                         </div>
-                        <div class="btnContainer">
-                            <button class="submit" type="submit">Inscription</button>
+                        <div class="connectContainer">
+                            <div class="btnContainer">
+                                <input type="submit" name="valid_form" class="submit" value="S'inscrire">
+                            </div>
+                            <div>
+                                <span class="textSpan">ou</span>
+                            </div>
+                            <div class="btnContainer">
+                                <input type="submit" name="connect" class="submit" value="Se connecter">
+                            </div>
                         </div>
                     </form>
                 </div>

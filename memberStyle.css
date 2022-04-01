@@ -132,9 +132,7 @@
         margin-left: 0.5vw;
     }
 
-    .btnContainer{
-        padding-top: 0.8vw;
-    }
+    
 
     .submit{
         background: #57B846;
@@ -148,6 +146,16 @@
         font-size: 1.1vw;
         outline: none;
         border: none;
+    }
+    .connectContainer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vw;
+    }
+    .textSpan{
+        font-family: Poppins;
+        font-size: 1.5vw;
+        margin: auto 2vw;
     }
 }
 @media all and (max-width: 1000px) {
@@ -276,10 +284,6 @@
         margin-left: 2vw;
     }
 
-    .btnContainer{
-        padding-top: 6vw;
-    }
-
     .submit{
         background: #57B846;
         border-radius: 3.5vw;
@@ -292,5 +296,15 @@
         font-size: 4vw;
         outline: none;
         border: none;
+    }
+    .connectContainer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vw;
+    }
+    .textSpan{
+        font-family: Poppins;
+        font-size: 4.5vw;
+        margin: auto 2vw;
     }
 }
