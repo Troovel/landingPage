@@ -5,6 +5,7 @@
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 @media all and (min-width: 1001px){
@@ -254,6 +255,7 @@
 	.applicationContainer{
 		display: flex;
 		justify-content: center;
+		margin: 6vw auto;
 	}
 	.ndapplicationContainer{
 		display: flex;
