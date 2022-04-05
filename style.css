@@ -309,6 +309,9 @@
 			transform: translateX(0);
 		}
 	}
+	.bottomUl{
+		margin-bottom: 2vw;
+	}
 }
 
 @media all and (max-width: 1000px) {
