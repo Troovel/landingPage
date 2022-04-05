@@ -235,20 +235,21 @@
 		margin-top: 3vw;
 
 	}
-	ul a{
+	ul li a{
+		color: gainsboro;
+		text-decoration: none;
+		font-family: Poppins;
+	}
+
+	ul li p{
 		color: white;
-		text-decoration: none;
+		text-decoration: underline;
 		font-family: Poppins;
-		border: none;
-		outline: none;
-	}   
+	}
 	ul a:visited{
-		color:white;
+		color:gainsboro;
 		text-decoration: none;
 		font-family: Poppins;
-		border: none;
-		outline: none;
-		background-color: white;
 	}
 	.applicationContainer{
 		display: flex;
