@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	text-align: center;
+}
+
+header{
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 2vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #0C2D48;
+	height: 8vw;
+}
+
+h1{
+	font-family: 'Roboto';
+	font-weight: 700;
+	text-align: center;
+	margin-top: 5vw;
+	font-size: 1.8vw;
+}
+
+h2{
+	font-family: 'Roboto';
+	font-weight: 700;
+	text-align: center;
+	margin-top: 3vw;
+	font-size: 1.4vw;
+}
+
+.poppinsFont{
+	font-family: 'Poppins';
+	font-size: 1vw;
+
+}
+.textContainer{
+	line-height: 100%;
+	font-family: 'Poppins';
+	font-size: 1vw;
+	margin: 0 10vw;
+}
+.textContainer p{
+	margin: 2vw 15vw;
+	font-size: 1vw;
+}
+
+.listContainer{
+	font-family: 'Roboto';
+	line-height: 150%;
+	font-weight: 700;
+	font-size: 1vw;
+	margin: 0 10vw;
+}
+
+.listContainer ul{
+	list-style: none;
+}
+
+.listContainer ol{
+	list-style: none;
+}
