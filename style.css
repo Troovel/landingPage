@@ -5,7 +5,6 @@
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
-	overflow-x: hidden;
 }
 
 @media all and (min-width: 1001px){
