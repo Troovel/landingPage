@@ -54,6 +54,7 @@
 	.buttons{
 		display: flex;
 		flex-direction: row-reverse;
+		margin-right: 2vw;
 	}
 	.logo svg{
 		margin: 2.5vw 0 0 1vw;
@@ -61,10 +62,10 @@
 	}
 
 	#menu-burger{
-		visibility: collapse;
+		display: none;
 	}
 	#menu{
-		visibility: collapse;
+		display: none;
 	}
 
 	body{
