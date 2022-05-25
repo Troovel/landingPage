@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: inherit;
+}
+
+@media all and (min-width: 1001px){
+    body{
+        display: block;
+        font-weight: 400;
+        font-size: 0.9vw;
+    }
+
+    .backgroundContainer{
+        background-image: url(gradient.svg);
+        background-size: cover;
+        display: block;
+        height: 100vh;
+    }
+
+    .ndbackgroundContainer{
+        background-color: transparent;
+        display: grid;
+        margin: 0 20vw 0 20vw;
+    }
+
+    .title{
+        font-size: 1.6vw;
+        color: #000;
+        font-weight: 400;
+        margin-top: 10vw;
+        margin-bottom: 1.8vw;
+        font-family: Poppins;
+        text-decoration: bold;
+    }
+
+    .formContainer{
+        background: #FFF;
+        border-radius: 2vw;
+        width: 100%;
+        display: table;
+        margin: 10vw 0 10vw 0;
+    }
+
+    input::placeholder{
+        color: black;
+        opacity: 1;
+    }
+
+    .imgContainer{
+        background: url(vitre.png) top left/cover no-repeat;
+        display: table-cell;
+        width: 50%;
+        border-radius: 2vw 0 0 2vw;
+    }
+
+    .inputContainer{
+        padding: 4vw 4vw;
+        padding-bottom: 4vw;
+        display: table-cell;
+    }
+
+    .inputDiv{
+        position: relative;
+        margin-bottom: 1.6vw;
+        border-bottom: 0.1vw solid black;
+        color: black;
+    }
+
+    .nameInput{
+        padding: 0.3vw 0;
+        font-size: 1.3vw;
+        font-family: Poppins;
+        color: #000;
+        background: 0 0;
+        width: 100%;
+        box-shadow: none;
+        outline: none;
+        border: none;
+        margin: 0;
+        cursor: text;
+    }
+
+    .submit{
+        background: #57B846;
+        border-radius: 1vw;
+        display: inline-block;
+        line-height: 2.5vw;
+        padding: 0 2vw;
+        font-family: Poppins;
+        cursor: pointer;
+        color: #000;
+        font-size: 1.3vw;
+        outline: none;
+        border: none;
+    }
+    .connectContainer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vw;
+        margin-bottom: 15vw;
+    }
+}
+@media all and (max-width: 1000px) {
+    body{
+        display: block;
+        font-weight: 400;
+        font-size: 0.9vw;
+    }
+
+    .backgroundContainer{
+        background-image: url(gradient.svg);
+        background-size: cover;
+        display: block;
+        height: 100vh;
+    }
+
+    .ndbackgroundContainer{
+        background-color: transparent;
+        display: grid;
+        margin: 0 15vw 0 15vw;
+    }
+
+    .title{
+        font-size: 3.8vw;
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 4vw;
+        font-family: Poppins;
+        text-decoration: bold;
+    }
+
+    .formContainer{
+        background: #FFF;
+        border-radius: 4vw;
+        width: 100%;
+        display: table;
+        margin-top: 10%;
+    }
+
+    input::placeholder{
+        color: black;
+        opacity: 1;
+    }
+
+    .imgContainer{
+        visibility: collapse;
+    }
+
+    .inputContainer{
+        padding: 5vw 5vw;
+        padding-bottom: 5vw;
+        display: table-cell;
+    }
+
+    .inputDiv{
+        position: relative;
+        margin-bottom: 5vw;
+        border-bottom: 0.1vw solid black;
+        color: black;
+    }
+
+    .nameInput{
+        padding: 1vw 0;
+        font-size: 3.5vw;
+        font-family: Poppins;
+        color: #000;
+        background: 0 0;
+        width: 100%;
+        box-shadow: none;
+        outline: none;
+        border: none;
+        margin-top: 3vw;
+        cursor: text;
+    }
+
+    .submit{
+        background: #57B846;
+        border-radius: 3.5vw;
+        display: inline-block;
+        line-height: 2.5vw;
+        padding: 2.5vw;
+        font-family: Poppins;
+        cursor: pointer;
+        color: #000;
+        font-size: 4vw;
+        outline: none;
+        border: none;
+    }
+    .connectContainer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8vw;
+    }
+}

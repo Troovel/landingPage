@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" target-densitydpi=medium-dpi>
+    <link rel="stylesheet" href="signInStyle.css"/>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<title>loginPage</title>
+</head>
+<body>
+    <div class="backgroundContainer">
+        <div class="ndbackgroundContainer">
+            <div class="formContainer">
+                <div class="imgContainer"></div>
+                <div class="inputContainer">
+                    <h2 class="title">Connectez-vous !</h2>
+                        <div class="inputDiv">
+                            <input name="Identifiant" class="nameInput" type="text" placeholder="Identifiant" minlength="2" maxlength="15" required>
+                        </div>
+                        <div class="inputDiv">
+                            <input class="nameInput" type="text" name="pin" pattern="(\d)*$" maxlength="4" placeholder="Code PIN" required>
+                        </div>
+                        <div class="connectContainer">
+                            <div class="btnContainer">
+                                <input type="submit" name="valid_form" class="submit" value="Se connecter">
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="connexion.js"></script>
+</body>
+</html>

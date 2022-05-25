@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" target-densitydpi=medium-dpi>
-    <link rel="stylesheet" href="memberStyle.css"/>
+    <link rel="stylesheet" href="signUpStyle.css"/>
     <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<title>loginPage</title>
 </head>
 <body>
@@ -14,7 +15,6 @@
                 <div class="imgContainer"></div>
                 <div class="inputContainer">
                     <h2 class="title">Inscrivez-vous et rejoignez nous !</h2>
-                    <form onsubmit="signUp(username_input.value, birthday_input.value, genre_input.value, 'wip', email_input.value, pin_input.value)">
                         <div class="inputDiv">
                             <input name="Identifiant" class="nameInput" type="text" placeholder="Identifiant" minlength="2" maxlength="15" required>
                         </div>
@@ -73,10 +73,9 @@
                                 <span class="textSpan">ou</span>
                             </div>
                             <div class="btnContainer">
-                                <input type="submit" name="connect" class="submit" value="Se connecter">
+                                <input type="submit" name="connect" class="submit" value="Se connecter" onclick="window.location.href='signIn.html';">
                             </div>
                         </div>
-                    </form>
                 </div>
             </div>
         </div>
